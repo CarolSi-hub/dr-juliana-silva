@@ -1,0 +1,32 @@
+.header {
+    border: solid 1px red;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.header-div-image {
+    border: solid 1px red;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+.header-image {
+    width: 20%;
+}
+
+.nav-links {
+    border: solid 1px red;
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+    width: 30%;
+}
+
+.nav-bar a {
+    font-weight: 600;
+    margin-right: 15px ;
+    text-decoration: none;
+}
