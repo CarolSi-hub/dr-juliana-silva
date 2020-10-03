@@ -12,18 +12,22 @@
 
 
 body {
+    background-image: linear-gradient(white, #d8d4f26c);
     color: #17324D;
 }
 
 .header {
+    align-items: flex-end;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 }
 
 .header-image {
-    width: 10%;
+    margin-left: 45px;
+    margin-bottom: 7px;
+    width: 20%;
 }
 
 .nav-links {
@@ -83,7 +87,11 @@ body {
     width: 40%;
 }
 
+.retrato-div {
+    width: 50%;
+}
 .retrato {
+    border-radius: 5px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
@@ -111,8 +119,8 @@ body {
     padding: 40px;
 }
 
-.coaching-image {
-    width: 30%;
+.image-sub {
+    width: 40vw;
 }
 
 .coaching-text {
