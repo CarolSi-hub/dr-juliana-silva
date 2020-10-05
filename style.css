@@ -219,6 +219,10 @@ footer p {
         width: 80vw;
     }
 
+    .missao {
+        padding: 10px 20px 10px 20px;
+    }
+
     .coaching {
         flex-direction: column;
         align-items: center;
