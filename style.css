@@ -45,10 +45,10 @@ body {
     text-decoration: none;
 }
 
-.hero {
+.hero1 {
   align-items: center;
-  background-image: url('imagens/retrato.JPG');
-  background-position: 40% 60%;
+  background-image: url('imagens/hero.JPG');
+  background-position: 30% 70%;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -56,7 +56,7 @@ body {
   min-height: 90vh;
 }
 
-.hero p {
+.hero1 p {
     color: white;
     text-align: center;
     font-weight: 600;
@@ -65,7 +65,7 @@ body {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.596);
 }
 
-.hero legend {
+.hero1 legend {
     color: rgb(236, 236, 236);
     text-align: center;
     font-weight: 600;
