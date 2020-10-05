@@ -186,7 +186,7 @@ footer p {
     text-align: center;
 }
 
-@media only screen and (max-device-width: 380px) {
+@media only screen and (max-device-width: 500px) {
 
      .header {
         justify-content: flex-start;
