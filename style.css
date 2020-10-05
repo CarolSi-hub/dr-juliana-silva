@@ -94,7 +94,6 @@ body {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     margin: auto;
     width: 30%;
-
 }
 
 .missao {
@@ -104,7 +103,6 @@ body {
     display: flex;
     flex-direction: column;
     padding: 15px 60px 25px 60px;
-
 }
 
 .missao-text {
@@ -201,4 +199,22 @@ footer p {
     .header-image{
         width: 50%;
     }
+
+    .biografia {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .retrato {
+        margin: auto;
+        width: 80%;
+    }
+
+    .biografia-texto {
+        text-align: justify;
+        text-indent: 15px;
+        width: 80%;
+    }
+
 }
