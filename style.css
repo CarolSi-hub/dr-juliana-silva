@@ -46,16 +46,16 @@ body {
 }
 
 .hero1 {
-  align-items: center;
-  background-image: url('imagens/hero.JPG');
-  background-position: 30% 70%;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 90vh;
-  width: 100vw;
-}
+    align-items: center;
+    background-image: url('imagens/hero.JPG');
+    background-position: 30% 70%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90vh;
+    width: 100vw;
+  }
 
 .hero1 p {
     color: white;
@@ -200,6 +200,10 @@ footer p {
         width: 50%;
     }
 
+    .hero1 {
+        min-height: 70vh;
+    }
+
     .biografia {
         flex-direction: column-reverse;
         align-items: center;
@@ -227,5 +231,13 @@ footer p {
 
     .coaching-text {
         width: 80vw;
+    }
+
+    .p2 {
+        display: none;
+    }
+
+    #feed {
+       width: 80vw;
     }
 }
