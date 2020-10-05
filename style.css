@@ -54,6 +54,7 @@ body {
   flex-direction: column;
   justify-content: center;
   min-height: 90vh;
+  width: 100vw;
 }
 
 .hero1 p {
@@ -185,4 +186,19 @@ footer p {
     font-weight: 600;
     margin: 0;
     text-align: center;
+}
+
+@media only screen and (max-device-width: 380px) {
+
+     .header {
+          justify-content: flex-start;
+     }
+
+    .nav-links {
+        display: none;
+    }
+
+    .header-image{
+        width: 50%;
+    }
 }
