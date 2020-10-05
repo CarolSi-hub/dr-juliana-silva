@@ -1,0 +1,243 @@
+@font-face {
+
+    font-family: 'Corbel' ;
+    src: url('fonts/corbel-4-maisfontes/corbel-4.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Corbel', 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+}
+
+
+body {
+    background-image: linear-gradient(white, #d8d4f26c);
+    color:rgb(73, 73, 73);
+}
+
+.header {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-image {
+    margin-left: 45px;
+    margin-bottom: 7px;
+    width: 20%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+    width: 30%;
+}
+
+.nav-bar a {
+    color:rgb(73, 73, 73);
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-right: 15px ;
+    text-decoration: none;
+}
+
+.hero1 {
+    align-items: center;
+    background-image: url('imagens/hero.JPG');
+    background-position: 30% 70%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90vh;
+    width: 100vw;
+  }
+
+.hero1 p {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 3em;
+    margin: 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.596);
+}
+
+.hero1 legend {
+    color: rgb(236, 236, 236);
+    text-align: center;
+    font-weight: 600;
+    font-size: 1em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.596);
+}
+
+.biografia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.biografia-texto {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    text-align: justify;
+    text-indent: 15px;
+    width: 50%;
+}
+
+.retrato {
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: 30%;
+}
+
+.missao {
+    background-color: #d8d4f2;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 60px 25px 60px;
+}
+
+.missao-text {
+    text-align: center;
+}
+
+.missao-text p {
+    font-size: 1.1em;
+    line-height: 1.2em;
+    margin: 5px;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+.lead-button {
+    background-color: #65c230;
+    border: solid 1px grey;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.514);
+    margin: 10px;
+    padding: 10px 30px;
+}
+
+.lead-button a {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.coaching {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.image-sub {
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    width: 40vw;
+}
+
+.coaching-text {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    text-align: justify;
+    text-indent: 15px;
+    width: 50%;
+}
+
+.instagram-content {
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+footer {
+    background-color: #52505e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer i {
+    font-size: 2em;
+    color: white;
+    margin-right: 10px;
+    padding-top: 8px;
+}
+
+footer p {
+    color: white;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+
+@media only screen and (max-device-width: 380px) {
+
+     .header {
+        justify-content: flex-start;
+     }
+
+    .nav-links {
+        display: none;
+    }
+
+    .header-image{
+        width: 50%;
+    }
+
+    .hero1 {
+        min-height: 70vh;
+    }
+
+    .biografia {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .retrato {
+        margin: auto;
+        width: 80%;
+    }
+
+    .biografia-texto {
+        width: 80%;
+    }
+
+    .coaching {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .image-sub {
+        width: 80vw;
+    }
+
+    .coaching-text {
+        width: 80vw;
+    }
+
+    .p2 {
+        display: none;
+    }
+
+    #feed {
+       width: 80vw;
+    }
+}
