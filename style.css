@@ -25,8 +25,7 @@ body {
 }
 
 .header-image {
-    margin-left: 45px;
-    margin-bottom: 7px;
+    margin: 10px 35px;
     width: 20vw;
 }
 
@@ -202,7 +201,11 @@ footer p {
     }
 
     .hero1 {
-        min-height: 70vh;
+        min-height: 80vh;
+    }
+
+    .hero1 p {
+        font-size: 1.8em;
     }
 
     .biografia {
@@ -220,8 +223,8 @@ footer p {
         width: 80vw;
     }
 
-    .missao {
-        padding: 10px 20px 10px 20px;
+    .missao-text {
+        width: 80vw;
     }
 
     .coaching {
